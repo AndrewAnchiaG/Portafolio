@@ -606,6 +606,21 @@ section .title::after{
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+    color: aliceblue;
+}
+
+.teams .carousel .card .box div{
+    color: aliceblue;
+}
+.teams .carousel .card .box a{
+    color: aliceblue;
+}
+.teams .carousel .card .box a:hover{
+    color: #222;
+}
+
+.teams .carousel .card .box div:hover{
+    color: #222;
 }
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
@@ -623,6 +638,7 @@ section .title::after{
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
+
 .teams .carousel .card:hover img{
     border-color: #fff;
 }
