@@ -553,6 +553,37 @@ section .title::after{
     background: none;
 }
 
+/*education Education Section */
+.education .title::after{
+    content: "What I take";
+}
+
+.education-content .names{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.education .education-content .buttoncv{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.education .education-content .buttoncv:hover{
+    color:  crimson;
+    background: none;
+}
+
+
+
 
 /* teams section styling */
 .teams .title::after{
