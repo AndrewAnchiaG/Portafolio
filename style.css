@@ -564,8 +564,35 @@ section .title::after{
     margin-bottom: 10px;
 }
 
+
+.education .education-content .column{
+    column-count: 2;   
+    width: 70%;
+} 
+.education .education-content .column  img
+{
+    width: 160px;
+    height: 80px;
+    margin-left: 60%;
+}
+
+.education .education-content .column .top
+{
+    margin-top: 50px;
+}
+
+.education .education-content .column  a,p 
+{
+    margin-left: 0px;
+}
+
+.education .education-content .centera{
+    text-align: center;
+    align-content: center;
+}
+
 .education .education-content .buttoncv{
-    display: inline-block;
+
     background: crimson;
     color: #fff;
     font-size: 20px;
