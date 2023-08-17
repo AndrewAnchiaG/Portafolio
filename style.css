@@ -535,6 +535,15 @@ section .title::after{
     text-align: justify;
     
 }
+.works .formater{
+    text-align: center;
+}
+
+.works .titlesize{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 
 .works .works-content a{
     display: inline-block;
@@ -591,8 +600,8 @@ section .title::after{
     align-content: center;
 }
 
-.education .education-content .buttoncv{
-
+.education .education-content .buttoncv
+{
     background: crimson;
     color: #fff;
     font-size: 20px;
@@ -608,9 +617,6 @@ section .title::after{
     color:  crimson;
     background: none;
 }
-
-
-
 
 /* teams section styling */
 .teams .title::after{
